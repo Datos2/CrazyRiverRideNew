@@ -4,6 +4,11 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>../../../CrazyRiverRide/CrazyRiverRide/Bullet.h</itemPath>
+      <itemPath>../../../CrazyRiverRide/CrazyRiverRide/Constantes.h</itemPath>
+      <itemPath>../../../CrazyRiverRide/CrazyRiverRide/Nave.h</itemPath>
+      <itemPath>../../../CrazyRiverRide/CrazyRiverRide/ObjetoMovil.h</itemPath>
+      <itemPath>../../../CrazyRiverRide/CrazyRiverRide/Paquete.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -12,6 +17,8 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <logicalFolder name="f1" displayName="Logic" projectFiles="true">
+      </logicalFolder>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -36,6 +43,31 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="../../../CrazyRiverRide/CrazyRiverRide/Bullet.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../CrazyRiverRide/CrazyRiverRide/Constantes.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../CrazyRiverRide/CrazyRiverRide/Nave.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../CrazyRiverRide/CrazyRiverRide/ObjetoMovil.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../CrazyRiverRide/CrazyRiverRide/Paquete.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
@@ -59,6 +91,31 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="../../../CrazyRiverRide/CrazyRiverRide/Bullet.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../CrazyRiverRide/CrazyRiverRide/Constantes.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../CrazyRiverRide/CrazyRiverRide/Nave.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../CrazyRiverRide/CrazyRiverRide/ObjetoMovil.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../CrazyRiverRide/CrazyRiverRide/Paquete.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
