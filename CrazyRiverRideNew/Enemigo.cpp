@@ -17,6 +17,9 @@
         float posyEnemigo = ObjetoMovil::getY();
         float posxEnemigo = ObjetoMovil::getX();
         
+        float posyNave = ObjetoMovil::getY();
+        float posxNave = ObjetoMovil::getX();
+        
         switch(tipo){
             case(1):
                 posyEnemigo += 5;
@@ -37,7 +40,35 @@
                 else{
                     pasos = 0;
                 }
-            //case(3):
+            case(3):
+                if(posyEnemigo < posyNave){
+                    if(posxEnemigo < posxNave){
+                        posxEnemigo += 5;
+                        posyEnemigo += 0.5;
+                    }
+                    else if(posxEnemigo > posxNave){
+                        posxEnemigo -= 5;
+                        posyEnemigo += 0.5;
+                    }
+                    else{
+                        posyEnemigo += 5;
+                    }
+                    posyEnemigo += 2;
+                }
+                else if(posyEnemigo > posyNave){
+                    if(posxEnemigo < posxNave){
+                        posxEnemigo += 5;
+                        posyEnemigo -= 0.5;
+                    }
+                    else if(posxEnemigo > posxNave){
+                        posxEnemigo -= 5;
+                        posyEnemigo -= 0.5;
+                    }
+                    else{
+                        posyEnemigo -= 5;
+                    }
+                    posyEnemigo -= 2;
+                }
         }
 
 }
